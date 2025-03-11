@@ -2,10 +2,10 @@ package ex_01_Java_Basic;
 
 public class Lab003_Keyowords {
     /*
-    Java keywords are predefined reserved words that have special meanings in the Java programming language.
+    Java keywords are predefined reserved words that have special meanings in the Java.
     keywords cannot be used as identifiers (such as variable names, method names, or class names).
     used to define the structure and behavior of the program.
-    All the keywords are defined in Lower Case.
+    -->All the keywords are defined in Lower Case only.
     As of Java 21, there are 67 reserved keywords in Java.
 
     List of 67 Java Keywords (Java 21)

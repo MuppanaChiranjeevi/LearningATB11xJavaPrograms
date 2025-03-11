@@ -5,10 +5,12 @@ import org.w3c.dom.ls.LSOutput;
 public class Lab004_Identifiers {
     /*
     In Java, an identifier is the name given to identify variables, methods, classes, packages, and
-    other elements in a program. Identifiers must follow certain rules and conventions.
+    other elements in a program.
+    Identifiers must follow certain rules and conventions.
     Rules for Java Identifiers
     -->Identifier can contain letters (A-Z or a-z), Digits(0-9), and two special symbol i.e. Dollar ($), _,.
     -->Must begin with a letter (A-Z or a-z), a dollar sign ($), or an underscore (_).
+    -->Should not start with a number
     -->Cannot be a Java reserved keyword.
     -->Case-sensitive
     -->No length limit (but should be meaningful and readable)

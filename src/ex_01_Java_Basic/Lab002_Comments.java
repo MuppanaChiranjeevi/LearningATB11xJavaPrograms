@@ -14,6 +14,7 @@ public class Lab002_Comments {
          */
 
         //This is single line comment
+
         /*
         This
         is
