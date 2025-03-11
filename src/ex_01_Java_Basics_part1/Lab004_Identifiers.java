@@ -1,6 +1,4 @@
-package ex_01_Java_Basic;
-
-import org.w3c.dom.ls.LSOutput;
+package ex_01_Java_Basics_part1;
 
 public class Lab004_Identifiers {
     /*

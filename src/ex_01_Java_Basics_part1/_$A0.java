@@ -1,4 +1,4 @@
-package ex_01_Java_Basic;
+package ex_01_Java_Basics_part1;
 
 public class _$A0 {
     public static void main(String[] args) {
