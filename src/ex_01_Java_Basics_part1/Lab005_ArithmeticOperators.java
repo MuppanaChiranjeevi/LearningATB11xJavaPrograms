@@ -7,7 +7,9 @@ public class Lab005_ArithmeticOperators {
         System.out.println(10-3);
         System.out.println(10*3);
         System.out.println(10/3);
+        System.out.println(10/3.0);
         System.out.println(10%3);
+        System.out.println(10%3.0);
 
     }
 }
