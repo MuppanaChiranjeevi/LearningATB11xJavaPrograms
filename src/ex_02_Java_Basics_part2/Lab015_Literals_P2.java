@@ -1,6 +1,6 @@
 package ex_02_Java_Basics_part2;
 
-public class Lab0015_Literals_P2 {
+public class Lab015_Literals_P2 {
     public static void main(String[] args) {
 
         char c1 = 'A'; // A to Z, a-z, !@#$%^&*()_+

@@ -1,6 +1,6 @@
 package ex_02_Java_Basics_part2;
 
-public class Lab0014_Literals_P1 {
+public class Lab014_Literals_P1 {
     public static void main(String[] args) {
 
         /**

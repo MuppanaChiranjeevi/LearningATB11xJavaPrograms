@@ -1,6 +1,6 @@
 package ex_02_Java_Basics_part2;
 
-public class Lab0013_Multiple_Variables {
+public class Lab013_Multiple_Variables {
         public static void main(String[] args) {
             // Declaring multiple variables of the same type in a single line
             byte a = 10, b = 20, c = 30;
