@@ -1,6 +1,6 @@
 package ex_03_Operators;
 
-public class Lab022_Interview_QnA1 {
+public class Lab023_Interview_QnA01 {
     public static void main(String[] args) {
         int a = 10;
         int b = 20;

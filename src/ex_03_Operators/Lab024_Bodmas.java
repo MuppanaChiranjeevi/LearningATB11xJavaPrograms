@@ -1,6 +1,6 @@
 package ex_03_Operators;
 
-public class Lab023_Bodmas {
+public class Lab024_Bodmas {
     public static void main(String[] args) {
         //Java program that evaluates mathematical expressions following the BODMAS
         // (Bracket, Order, Division/Multiplication, Addition/Subtraction) rule.
