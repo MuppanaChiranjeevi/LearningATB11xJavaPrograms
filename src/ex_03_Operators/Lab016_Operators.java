@@ -44,15 +44,18 @@ public class Lab016_Operators {
          * Unary Minus (-): This operator is used to negate the value.
          *                  It changes a positive value to negative and vice versa.
          *
-         * Increment (++):
-         * Prefix Increment (++num): Increments the value of num before using it in an expression.
-         * Postfix Increment (num++): Increments the value of num after using it in an expression.
-         * Decrement (--):
-         * Prefix Decrement (--num): Decrements the value of num before using it in an expression.
-         * Postfix Decrement (num--): Decrements the value of num after using it in an expression.
+         * ++ : increments a value by one
+         * Pre-increment (++p) : First increments a value by one, then uses the value.
+         * Post-increment (p++) : First uses the value, then increments a value by one.
+         *
+         * -- : decrements a value by one
+         * Pre-decrement (--p) : First decrements a value by one, then uses the value.
+         * Post-decrement (p--) : First uses the value, then decrements a value by one.
          *
          * Logical NOT (!): This operator is used to reverse the boolean value.
          *                  If the value is true, it becomes false, and if it is false, it becomes true.
+         * ! : negates an expression
+         * ~ : inverts the value of a boolean
          *
          * 6. Bitwise Operators
          * These operators perform bit-level operations on integer data types.
