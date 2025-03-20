@@ -86,5 +86,7 @@ public class Lab028_ImplicitCasting {
         // char to int (ASCII value)
         intValue = charValue;
         System.out.println("char to int: " + intValue);
+        System.out.println(65=='A');
+        System.out.println(66=='B');
     }
 }
