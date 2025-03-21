@@ -1,6 +1,6 @@
-package ex_08_Loops;
+package ex_08_For_Loops;
 
-public class Lab47_Infinite_ForLoop {
+public class Lab047_Infinite_ForLoop {
     public static void main(String[] args) {
         // Basic Infinite for Loop (No Condition)
 

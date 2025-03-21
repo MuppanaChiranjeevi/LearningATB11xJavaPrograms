@@ -1,7 +1,7 @@
-package ex_08_Loops;
+package ex_08_For_Loops;
 import java.util.Scanner;
 
-public class Lab48_ForLoop  {
+public class Lab048_ForLoop  {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");

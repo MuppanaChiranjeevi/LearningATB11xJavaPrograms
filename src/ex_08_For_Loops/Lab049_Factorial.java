@@ -1,8 +1,8 @@
-package ex_08_Loops;
+package ex_08_For_Loops;
 
 import java.util.Scanner;
 
-public class Lab49_Factorial {
+public class Lab049_Factorial {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter the number: ");
