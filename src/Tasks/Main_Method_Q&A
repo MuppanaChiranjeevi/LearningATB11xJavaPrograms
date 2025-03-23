@@ -1,0 +1,63 @@
+
+1) If there is no main method, what will happen?
+   If there is no main method in a Java program, the program will compile successfully,
+   but it will throw a runtime error when you try to execute it:
+   Error: Main method not found in class.
+   The main method is the entry point for any Java application,
+   and the JVM (Java Virtual Machine) requires it to start execution.
+
+2) Does main method return any value?
+   No, the main method does not return any value. It is declared with a void return type,
+   meaning it doesn't return anything to the JVM upon completion.
+
+3) What is main method?
+   The main method is a special method in Java that serves as the entry point for a Java application.
+   When you run a Java program, the JVM looks for this method with the exact signature
+   public static void main(String[] args) to start execution. It’s where the program begins running.
+
+4) (String[] args) what is this in main method?
+   String[] args is an array of String objects that represents command-line arguments passed to the
+   program when it is executed.
+
+5) main(String[] args) in this instead of args can I write something else like java, or Selenium like this (String[] Selenium)?
+   Yes, you can replace args with any valid variable name, like String[] Selenium or String[] java.
+   The name args is just a convention; it’s not mandatory.
+   The JVM only cares about the method signature (public static void main) and
+   the parameter type (String[]), not the name of the parameter.
+
+6) public static void main(String args[]) { } is this right main method, is this will work? ([] position is changed)
+   Yes, this is a valid main method and it will work.
+   In Java, String[] args and String args[] are both syntactically correct and equivalent.
+   The position of [] doesn’t matter; it’s a matter of style (though String[] args is more commonly used).
+
+7) public static void main(String[]args) { }, is this right main method, is this will work? (I have removed the space between []args)
+   Yes, this is a valid main method and it will work.
+   The space between String and []args is optional in Java.
+   String[]args (no space) is equivalent to String[] args and is accepted by the JVM.
+
+8) public static void main(String...args) { }, is this right main method, is this will work? (I have removed [] and added ...)
+   Yes, this is a valid main method and it will work.
+   String...args uses Java’s varargs (variable arguments) feature, introduced in Java 5.
+   It’s equivalent to String[] args and allows the method to accept a variable number of String arguments.
+   The JVM recognizes this as a valid entry point.
+
+9) static public void main(String[] args) { } is this valid main method?
+   Yes, this is a valid main method and it will work.
+   The order of static and public doesn’t matter in Java;
+   both public static and static public are equivalent and accepted by the JVM as a valid entry point.
+
+10) public void static main(String[] args) {} is this valid main method?
+   No, this is not a valid main method.
+   The keyword static must come before the return type (void), so the correct order is public static void.
+   This syntax (public void static) will result in a compilation error, and even if it compiled,
+   the JVM wouldn’t recognize it as the entry point.
+
+11) public static main void (String[] args) {} is this valid main method?
+   No, this is not a valid main method. The return type (void) must come before the method name (main).
+   The correct syntax is public static void main, not public static main void.
+   This will cause a compilation error, and the JVM won’t recognize it as an entry point.
+
+12) Who Gets Highest Priority in Execution?
+   In a Java program, the main method gets the highest priority in execution
+   because it is the entry point of the application.
+   When you run a Java program, the JVM starts by calling the main method in the specified class.

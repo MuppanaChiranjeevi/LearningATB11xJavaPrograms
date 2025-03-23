@@ -5,7 +5,7 @@ public class Lab002_Comments {
         /**
          * Java comments are statements in a program that are not executed by the compiler and interpreter.
          * Comments are lines which are skipped during execution of a program
-         * comments are ignored by the Java compiler
+         *
          *
          *  There are three types of comments in Java
          *         Single Line Comment
