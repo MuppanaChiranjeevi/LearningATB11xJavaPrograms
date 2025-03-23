@@ -56,8 +56,12 @@
    No, this is not a valid main method. The return type (void) must come before the method name (main).
    The correct syntax is public static void main, not public static main void.
    This will cause a compilation error, and the JVM won’t recognize it as an entry point.
-
-12) Who Gets Highest Priority in Execution?
+12)public static void main(string args[]) is this correct?
+    There is an issue with your main method declaration in Java. The correct syntax should be:
+    public static void main(String[] args)
+    Java is case-sensitive, and String (with an uppercase 'S') is a class in Java.
+    You wrote string (with a lowercase 's'), which is incorrect.
+13) Who Gets Highest Priority in Execution?
    In a Java program, the main method gets the highest priority in execution
    because it is the entry point of the application.
    When you run a Java program, the JVM starts by calling the main method in the specified class.
