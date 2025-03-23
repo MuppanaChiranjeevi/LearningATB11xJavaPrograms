@@ -44,8 +44,8 @@ public class Task_Valid_Main_Methods {
      *  --> The order of  final, static, public does not matter in Java.
      *
      */
-    public static void main(String[]args) {
-        System.out.println("hi");
+     static final public void main(String[]Chiru) {
+        System.out.println("This is a valid main method syntax");
     }
 
 }
