@@ -101,6 +101,11 @@ public class Lab066_String_Methods {
         for (String fruit : com) {
             System.out.println(fruit);
         }
+        System.out.println("\n");
+        com = str0.split("@",3);
+        for (String fruit : com) {
+            System.out.println(fruit);
+        }
         System.out.println("-------------------------");
 
         // 15.contains(CharSequence s) : Checks if the string contains the specified substring.
@@ -141,7 +146,7 @@ public class Lab066_String_Methods {
 
         System.out.println("-------------------------");
         // 19.replace(char oldChar, char newChar) / replace(CharSequence target, CharSequence replacement)
-        //  Replaces all occurrences of the specified old character/string with a new character/string.
+        //  Replaces all occurrences of the specified old character/target with a new character/replacement.
         str = "Java is fun";
         System.out.println(str.replace('a', 'e'));
         System.out.println(str.replace("fun", "awesome"));
@@ -216,6 +221,36 @@ public class Lab066_String_Methods {
         str2 = "apple";
         result = str1.compareToIgnoreCase(str2);
         System.out.println(result);
+        System.out.println("-------------------------");
+        // isBlank() Checks if the string is empty or contains only white spaces
+        String s1="  ";
+        String s2="";
+        System.out.println(s1.isBlank());
+        System.out.println(s1.isEmpty());
+
+        System.out.println(s2.isBlank());
+        System.out.println(s2.isEmpty());
+
+        System.out.println("-------------------------");
+        // repeat(int count) : Repeats the string the specified number of times
+        String myname="Chiru ";
+        System.out.println(myname.repeat(10));
+        System.out.println("-------------------------");
+        // toCharArray() : Converts the string to character array
+        myname = "Chiranjeevi";
+        char[] ch = myname.toCharArray();
+        for(char c:ch){
+            System.out.println(c);
+        }
+        System.out.println("-------------------------");
+        // joins(CharSequence delimiter, CharSequence... elements) : joins elements with a delimiter
+        String join=String.join("-","Java","C++","Python","Ruby");
+        System.out.println(join);
+        System.out.println("-------------------------");
+        // format(String format, Object...args)- Returns a formatted string
+        System.out.println(String.format("My name is %s and I am %d years old.","Chiranjeevi",25));
+
+
 
     }
 }
