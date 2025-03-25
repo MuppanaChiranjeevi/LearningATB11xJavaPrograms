@@ -217,17 +217,5 @@ public class Lab066_String_Methods {
         result = str1.compareToIgnoreCase(str2);
         System.out.println(result);
 
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
