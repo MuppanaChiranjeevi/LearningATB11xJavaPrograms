@@ -7,11 +7,9 @@ public class Lab067_StringBuffer {
      * Note: The StringBuffer class in Java is thread-safe means multiple threads cannot access it simultaneously.
      * So it is safe and will result in an order.
      *
-     *  Unlike String class, which is immutable (means every modification creates a new object),
-     *  StringBuffer class allows changes without creating new objects, making it efficient for string manipulations.
-     *
-     *
-     *
+     *  Unlike the String class, which is immutable (means every modification creates a new object),
+     *  StringBuffer class allows modifications without creating new objects, making it more efficient for string manipulations.
+     *  The StringBuffer class was introduced in Java 1.0
      */
     public static void main(String[] args) {
         // There are multiple ways to create a StringBuffer object
