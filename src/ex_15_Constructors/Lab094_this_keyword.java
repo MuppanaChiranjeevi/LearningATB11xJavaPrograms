@@ -22,12 +22,17 @@ class Bike {
 
     // Parameterized Constructor with three parameter
     public Bike(String name,String model, int year) {
-        this(year); //Calling the other constructor using 'this'
+        this(model,year); //Calling the other constructor using 'this'
         this.name = name;
         // this.name refers to the instance variable name,
         // while the name on the right side refers to the constructor parameter.
         this.model=model;
 
+    }
+    // Parameterized Constructor with two parameter
+    public Bike(String model,int year) {
+        this(year);
+        this.model = model;
     }
 
     // Parameterized Constructor with one parameter

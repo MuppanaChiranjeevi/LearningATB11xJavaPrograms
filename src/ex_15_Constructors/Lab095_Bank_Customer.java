@@ -14,7 +14,7 @@ class BankAccount {
     void deposit(double amount) {
         balance += amount;
         System.out.println("Deposited: " + amount);
-        displayBalance();
+        this.displayBalance();
     }
 
     void withdraw(double amount) {
@@ -25,7 +25,7 @@ class BankAccount {
             System.out.println("Amount tried to withdraw: " + amount);
             System.out.println("Insufficient funds!");
         }
-        displayBalance();
+        this.displayBalance();
     }
 
     void displayBalance() {
