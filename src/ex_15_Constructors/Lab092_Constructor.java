@@ -38,7 +38,7 @@ class Company{
         empName="Chiranjeevi";
         salary=29865.432;
     }
-    // Parameterized constructor
+    // Parameterized Constructor with one parameter
     Company(String name){
         System.out.println("parameterized constructor with 1 parameter");
         empName=name;
@@ -46,7 +46,7 @@ class Company{
         salary=75000;
 
     }
-    // Parameterized constructor
+    // Parameterized Constructor with three parameter
     Company(String name,int id,double amount){
         System.out.println("parameterized constructor with 3 parameter");
         empName=name;
@@ -54,7 +54,7 @@ class Company{
         salary=amount;
 
     }
-    // Parameterized constructor
+    // Parameterized Constructor with two parameter
     Company(String name,int id){
         System.out.println("parameterized constructor with 2 parameter");
         empName=name;
