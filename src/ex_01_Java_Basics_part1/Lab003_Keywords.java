@@ -1,6 +1,6 @@
 package ex_01_Java_Basics_part1;
 
-public class Lab003_Keyowords {
+public class Lab003_Keywords {
     /*
     Java keywords are predefined reserved words that have special meanings in the Java.
     keywords cannot be used as identifiers (such as variable names, method names, or class names).
