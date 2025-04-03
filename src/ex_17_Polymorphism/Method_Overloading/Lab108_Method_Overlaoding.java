@@ -1,5 +1,5 @@
 package ex_17_Polymorphism.Method_Overloading;
-// Method Overloading with Different types of parameters
+// Method Overloading with Different number of parameters
 public class Lab108_Method_Overlaoding {
     public static void main(String[] args) {
         Calculator calc = new Calculator();
