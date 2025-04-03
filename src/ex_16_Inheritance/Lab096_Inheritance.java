@@ -45,8 +45,9 @@ public class Lab096_Inheritance {
      *  Single Inheritance: A subclass inherits from one superclass
      *  Multilevel Inheritance – A subclass inherits from another subclass, forming a chain of inheritance
      *  Hierarchical Inheritance: Multiple subclasses inherit from one superclass
-     *  Multiple Inheritance (through Interfaces) – Java does not support multiple inheritance with classes to avoid
-     *                                              ambiguity (Diamond Problem) but allows it through interfaces.
+     *  Multiple Inheritance (through Interfaces): A subclasses inherits from  more than one superclass, it is known as multiple inheritance.
+     *  Note: Java does not support multiple inheritance with classes to avoid ambiguity  and complexity caused by the Diamond Problem,
+     *  but allows it through interfaces.
      */
     public static void main(String[] args) {
         Father f = new Father();
