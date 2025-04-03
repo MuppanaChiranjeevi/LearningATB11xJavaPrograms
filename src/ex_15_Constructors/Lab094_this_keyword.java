@@ -6,6 +6,14 @@ package ex_15_Constructors;
  * this keyword is used to call instance methods and constructors of the current object.
  * this keyword is used within an instance method or constructor.
  *
+ * Usage of Java this keyword
+     * this can be used to refer current class instance variable.
+     * this can be used to invoke current class method (implicitly)
+     * this() can be used to invoke current class constructor.
+     * this can be passed as an argument in the method call.
+     * this can be passed as argument in the constructor call.
+     * this can be used to return the current class instance from the method.
+ *
  */
 class Bike {
     String name;
@@ -14,9 +22,9 @@ class Bike {
 
     // Default Constructor
     public Bike() {
-        this.name= "Unknown";
-        this.model = "Unknown";
-        this.year = 0;
+        name= "Unknown";
+        this.model = "UNKNOWN";
+        System.out.println("Default Constructor");
 
     }
 
@@ -60,9 +68,29 @@ class Bike {
 
     void drive() {
         System.out.println("Car is moving.");
-
+        this.method(this);
     }
+    void method(Bike B){
+        System.out.println("this is passed as an argument in the method call.");
+        Cycle c=new Cycle(this);
+    }
+
 }
+
+class Cycle{
+    Cycle(Bike B){
+        System.out.println("this is passed as argument in the constructor call.");
+        System.out.println(B.name);
+        this.getCycle();
+    }
+    Cycle getCycle(){
+        System.out.println("this is used to return the current class instance from the method.");
+        return this;
+    }
+
+
+}
+
 
 public class Lab094_this_keyword {
     public static void main(String[] args) {
