@@ -51,7 +51,7 @@ class Bike {
         System.out.println("Bike Name: "+name);
         System.out.println("Bike Model: " + model);
         System.out.println("Year: " + year);
-        this.startEngine();
+        startEngine();
     }
     void startEngine() {
         System.out.println("Engine started.");

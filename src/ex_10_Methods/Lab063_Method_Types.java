@@ -12,10 +12,8 @@ public class Lab063_Method_Types {
     */
     public static void main(String[] args) {
         // Calling the method
-        printMessage();
-        printMessage();
-        printMessage();
-        printMessage();
+        printAddition();
+        printAddition();
 
         System.out.println("-------------------------------");
 
@@ -43,8 +41,10 @@ public class Lab063_Method_Types {
 
     }
     // Method without parameters and without return type
-    public static void printMessage() {
-        System.out.println("Hello, World!");
+    public static void printAddition() {
+        int a = 2;
+        int b = 7;
+        System.out.println( a + b);
     }
     // Method without parameters and with return type
     public static int getSum() {
