@@ -2,7 +2,7 @@ package ex_19_Access_Modifiers.package1;
 
 
 
-public class Main {
+public class Lab126_Main {
 
     public static void main(String[] args) {
         Parent p= new Parent();

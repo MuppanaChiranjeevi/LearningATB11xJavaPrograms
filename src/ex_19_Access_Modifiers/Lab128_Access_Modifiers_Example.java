@@ -1,6 +1,6 @@
 package ex_19_Access_Modifiers;
 
-public class Lab126_Access_Modifiers_Example {
+public class Lab128_Access_Modifiers_Example {
     public static void main(String[] args) {
         AccessModifierExample obj = new AccessModifierExample();
 
