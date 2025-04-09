@@ -7,6 +7,7 @@ public class Lab111_Type_promotion_overloading {
         obj.show(10.5);    // Exact match - calls show(double)
         obj.show('A');     // char promoted to int - calls show(int)
         obj.show(10.2f);   // float promoted to double - calls show(double)
+
     }
 }
 class Demo {

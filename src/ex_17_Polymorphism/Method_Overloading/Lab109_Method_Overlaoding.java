@@ -12,12 +12,11 @@ public class Lab109_Method_Overlaoding {
     }
 }
 class Calculator2 {
-    // Method with two parameters
+
     int add(int a, int b) {
         return a + b;
     }
 
-    // Overloaded method with three parameters
     double add(double a, double b) {
         return a + b;
     }
