@@ -3,7 +3,7 @@ package ex_19_Access_Modifiers.com.test;
 
 import ex_19_Access_Modifiers.com.example.MyClass;
 
-public class TestPublic {
+public class Lab124_Test {
     public static void main(String[] args) {
         MyClass obj = new MyClass();
         obj.x = 10; // Accessing public field

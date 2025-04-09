@@ -1,6 +1,6 @@
 package ex_19_Access_Modifiers.com.pack;
 
-public class Test {
+public class Lab125_Test {
     public static void main(String[] args) {
         A obj = new A();
         obj.msg();
