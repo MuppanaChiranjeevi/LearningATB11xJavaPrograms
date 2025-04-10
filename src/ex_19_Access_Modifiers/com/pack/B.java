@@ -1,6 +1,0 @@
-package ex_19_Access_Modifiers.com.pack;
-
-class B {
-    int z=100;
-    void display() {System.out.println("Hello,  This is default method"); }
-}
