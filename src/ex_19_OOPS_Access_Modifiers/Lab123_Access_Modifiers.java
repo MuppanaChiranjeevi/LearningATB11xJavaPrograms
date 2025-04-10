@@ -39,6 +39,22 @@ public class Lab123_Access_Modifiers {
      * default	  Yes	 Yes	 Yes	              No	             No
      * protected  Yes	 Yes	 Yes	              Yes	             No
      * public	  Yes	 Yes	 Yes	              Yes	             Yes
+     *
+     * How to access package from another package?
+     * There are three ways to access the package from outside the package.
+     * ➢ import package.*;
+     *  If you use package.* then all the classes and interfaces of this package will be accessible but not subpackages.
+     *
+     * ➢ import package.classname;
+     * If you import package.classname then only declared class of this package will be accessible.
+     *
+     * ➢ fully qualified name.
+     * If you use fully qualified name then only declared class of this package will be
+     * accessible. Now there is no need to import. But you need to use fully qualified name
+     * every time when you are accessing the class or interface. It is generally used when two
+     * packages have same class name.
+     *
+     * Note: If you import a package, subpackages will not be imported.
      */
     public static void main(String[] args) {
         System.out.println("Access Modifiers Notes");

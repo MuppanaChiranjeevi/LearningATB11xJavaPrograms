@@ -30,7 +30,7 @@ public class Lab107_Polymorphism {
          * Return type should be same or covariant (subtype)
          * There must be an IS-A relationship (inheritance)
          * Cannot override static, final or private methods
-         * Overriding method cannot have more restrictive access modifier
+         * overridden method (i.e., declared in subclass) must not be more restrictive.
      *
      *
      */
