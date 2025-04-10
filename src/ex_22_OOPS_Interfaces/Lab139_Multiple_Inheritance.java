@@ -1,6 +1,6 @@
 package ex_22_OOPS_Interfaces;
 
-public class LAb139_Multiple_Inheritance {
+public class Lab139_Multiple_Inheritance {
     public static void main(String args[]){
         Computer c = new Computer();
         c.print();
