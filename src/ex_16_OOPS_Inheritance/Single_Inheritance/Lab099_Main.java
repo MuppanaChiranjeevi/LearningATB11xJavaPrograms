@@ -17,6 +17,14 @@ public class Lab099_Main {
         myCar.drive();  // Own method of Car
         System.out.println(myCar.color); // Inherited field
         System.out.println(myCar.brand); // own field
+        System.out.println("---------------------");
+
+        Vehicle Car = new Car();
+
+        Car.start();
+//        Car.drive();
+        System.out.println(Car.color);
+//        System.out.println(Car.brand);
     }
 }
 class Vehicle {

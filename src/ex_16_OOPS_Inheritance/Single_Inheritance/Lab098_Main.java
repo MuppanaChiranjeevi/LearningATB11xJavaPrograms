@@ -12,6 +12,10 @@ public class Lab098_Main {
         Dog dog = new Dog();
         dog.eat(); // Calling method from parent class
         dog.bark(); // Calling method from child class
+        System.out.println("-----------------");
+        Animal myDog = new Dog();
+        myDog.eat();
+//        myDog.bark();
     }
 }
 // Parent class
