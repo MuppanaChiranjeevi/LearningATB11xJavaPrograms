@@ -18,6 +18,7 @@ public class Lab136_Interfaces {
      * The class which implements the interface must implement all the abstract methods.Otherwise, it should be made abstract.
      * A class can extend only one Java class and implement multiple Java interfaces.
      * An interface can extend multiple interfaces.
+     * If a class implements multiple interfaces, or an interface extends multiple interfaces, it is known as multiple inheritance.
      *
      * Java Interface Enhancements:
      * Since Java 8, we can have default and static methods in an interface.
