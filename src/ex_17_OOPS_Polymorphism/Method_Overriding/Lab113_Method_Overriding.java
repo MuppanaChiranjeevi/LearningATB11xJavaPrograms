@@ -11,6 +11,7 @@ public class Lab113_Method_Overriding {
          * There must be an IS-A relationship (inheritance)
          * The overriding method cannot have a more restrictive access modifier
      * Constructors cannot be overridden
+     * A static method cannot be overridden.
      * Cannot override static, final or private methods
      * Parent class's overridden method can be called using super.methodName()
      *

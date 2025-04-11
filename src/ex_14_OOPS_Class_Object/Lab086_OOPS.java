@@ -63,7 +63,9 @@ public class Lab086_OOPS {
      * 		An Instance variables are variables declared inside a class but outside any method.
      * 		They are also known as member variables or fields or properties or attributes.
      * 		Each object has its own copy of instance variables, and they represent the state of that object.
+     * 	    Instance variables are specific to each object.
      * 		Instance variables get initialized when the object is created.
+     * 	    Instance variables can hold different values for different objects.
      *  Instance Methods in Java
      * 		An instance method is a method that is associated with an instance of a class ( object).
      * 		They can access instance variables,static variables and other instance methods directly.
