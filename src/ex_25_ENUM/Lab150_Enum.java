@@ -17,8 +17,8 @@ public class Lab150_Enum {
         for(Planet p: Planet.values()){
 
             System.out.print(p.ordinal());
-            System.out.print(" "+p);
-            System.out.println(" "+p.mass);
+            System.out.print(" "+p+" ");
+            System.out.println(p.mass);
             System.out.println(p.name()+"\n");
         }
     }

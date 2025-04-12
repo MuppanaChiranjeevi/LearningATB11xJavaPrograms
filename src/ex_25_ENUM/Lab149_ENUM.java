@@ -8,7 +8,7 @@ public class Lab149_ENUM {
         private int value;
         private Color(int value){
             this.value=value;
-            System.out.println("Constructor called for: " + this.value);
+            System.out.println("Constructor called for: " + this.name());
 
         }
     }
@@ -16,7 +16,7 @@ public class Lab149_ENUM {
         System.out.println("-----------Main----------------");
         for (Color c : Color.values()) {
             System.out.println(c + " " + c.value);
-            System.out.println(c.ordinal());
+            System.out.println(c.ordinal()+" "+c.name());
         }
 
     }}
