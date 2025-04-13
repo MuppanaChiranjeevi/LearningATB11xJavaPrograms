@@ -1,6 +1,6 @@
 package ex_26_Wrapper;
 
-public class Lab1556_Wrapper_Classes_Utility {
+public class Lab156_Wrapper_Classes_Utility {
 
     public static void main(String[] args) {
         // Integer utility methods
