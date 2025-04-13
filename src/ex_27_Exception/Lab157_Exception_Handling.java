@@ -67,6 +67,8 @@ public class Lab157_Exception_Handling {
      * }catch(Exception e){
             //Code to handle the general exception
      * }
+     * Note: - All the exceptions inherit the Exception class, which is a child of the Throwable class.
+     *  In Java, java.lang.Exception class is the superclass of all exception objects.
      */
     public static void main(String[] args) {
 

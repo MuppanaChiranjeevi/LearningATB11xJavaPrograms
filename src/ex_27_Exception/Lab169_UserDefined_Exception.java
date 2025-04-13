@@ -19,13 +19,13 @@ public class Lab169_UserDefined_Exception {
 
     public static void main(String[] args) {
 
-//        divide(10,0);
+        divide(10,0);
 
-        try {
-            divide(10, 0);
-        } catch (DivideByZeroException e) {
-            System.out.println("Caught Exception: " + e.getMessage());
-        }
+//        try {
+//            divide(10, 0);
+//        } catch (DivideByZeroException e) {
+//            System.out.println("Caught Exception: " + e.getMessage());
+//        }
 
     }
 }
