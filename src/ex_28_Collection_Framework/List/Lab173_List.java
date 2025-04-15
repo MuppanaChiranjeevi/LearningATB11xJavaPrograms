@@ -5,15 +5,15 @@ public class Lab173_List {
      * The List interface in Java is part of the Java Collections Framework (JCF) and represents an ordered collection (sequence) of elements.
      * It allows duplicate values and maintains insertion order, meaning elements are stored in the order they are added.
      * Key Features of List Interface
-     * Order is maintained – elements are stored in the order they are added.
-     * Allows Duplicates – The same element can be added multiple times.
-     * Positional access – you can get, insert, or remove elements using index.
-     * Dynamic Sizing – Unlike arrays, Lists can grow or shrink in size.
-     *     Collection --> List;
-     *     List --> ArrayList;
-     *     List --> LinkedList;
-     *     List --> Vector;
-     *     Vector --> Stack;
+         * Order is maintained – elements are stored in the order they are added.
+         * Allows Duplicates – The same element can be added multiple times.
+         * Positional access – you can get, insert, or remove elements using index.
+         * Dynamic Sizing – Unlike arrays, Lists can grow or shrink in size.
+     *  Collection --> List;
+     *  List --> ArrayList;
+     *  List --> LinkedList;
+     *  List --> Vector;
+     *  Vector --> Stack;
      * The implementation classes of the List interface are ArrayList, LinkedList, Stack, and Vector.
      * ArrayList – Resizable array (fast random access).
      * LinkedList – Doubly-linked list (fast insertions/deletions).
