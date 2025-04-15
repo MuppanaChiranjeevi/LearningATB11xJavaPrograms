@@ -1,6 +1,6 @@
 package ex_28_Collection_Framework.List;
 import java.util.*;
-public class Lab178_ArrayList {
+public class Lab178_ArrayList_Example {
     public static void main(String args[]){
         //Creating user-defined class objects
         Student s1=new Student(101,"Sonoo",23);
