@@ -15,6 +15,7 @@ public class Lab180_LinkedList {
         ll.add("Gaurav");
         ll.add("Harsh");
         ll.add("Amit");
+        ll.add("null");
         System.out.println("Initial list of elements: "+ll);
         ll.remove("Vijay");
         ll.remove("Anuj");

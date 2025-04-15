@@ -15,8 +15,8 @@ public class Lab173_List {
      *  List --> Vector;
      *  Vector --> Stack;
      * The implementation classes of the List interface are ArrayList, LinkedList, Stack, and Vector.
-     * ArrayList – Resizable array (fast random access).
-     * LinkedList – Doubly-linked list (fast insertions/deletions).
+     * ArrayList – Resizable array (better for storing and accessing data.).
+     * LinkedList – Doubly-linked list (fast insertions/deletions --> better for manipulating data.).
      * Vector – Thread-safe but slower (legacy).
      * Stack – LIFO (Last-In-First-Out) structure.
      *

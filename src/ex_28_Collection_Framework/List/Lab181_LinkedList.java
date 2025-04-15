@@ -12,11 +12,14 @@ public class Lab181_LinkedList {
         ll.add(1, "Geeks");
         ll.add("Chiru");
         ll.add(4,"TechPoint");
+        ll.addLast("null");
+        ll.addFirst("null");
 
         System.out.println("Initial LinkedList " + ll);
 
-        ll.set(1, "For");
-        ll.set(3,"Java");
+        ll.set(2, "For");
+        ll.set(4,"Java");
+        ll.set(0,"websites");
 
         System.out.println("Updated LinkedList " + ll);
 
