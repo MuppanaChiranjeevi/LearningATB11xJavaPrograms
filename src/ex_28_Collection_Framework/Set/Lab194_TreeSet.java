@@ -25,6 +25,7 @@ public class Lab194_TreeSet {
 // Duplicate won't be added
         colors.add("Red");
         colors.add("Blue");
+//        colors.add(null);  // NullPointerException
 
         System.out.println(colors); // [Blue, Green, Red, Yellow] --> Sorted in Ascending Order
         System.out.println(colors.size());
