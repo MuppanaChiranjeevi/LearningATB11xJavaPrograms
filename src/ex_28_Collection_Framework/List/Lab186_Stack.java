@@ -8,7 +8,7 @@ public class Lab186_Stack {
      * Inherits from: Vector (which means it has dynamic array features)  and provides additional operations for stack manipulation.
      *
      * Key Features
-     * LIFO Principle: The last element added is the first one to be removed
+     * LIFO Principle: (Last-In-First-Out) The last element added is the first one to be removed
      * Synchronized: All operations are thread-safe (like Vector)
      * Part of Java Collections Framework: Though considered legacy, it's still available
      * Main Methods
